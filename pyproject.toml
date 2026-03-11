@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "factorioagents"
+version = "0.1.0"
+description = "RL agents to play factorio"
+authors = ["nickrusso <nick.s.russo@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+factorio-learning-environment = "^0.3.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pydantic = "^2.12.5"
+flake8 = "^7.3.0"
+black = "^26.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
